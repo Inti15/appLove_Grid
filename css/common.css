@@ -6,7 +6,7 @@
 
 .container{
   width: 100%;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: 0px auto;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .col-8{
-  width: 66.666;
+  width: 66.666%;
 }
 
 .col-9{
@@ -97,4 +97,67 @@
 
 .text-uppercase {
   text-transform: uppercase;
+}
+
+/*Estilos del nav*/
+.alignCenter{
+  text-align: center;
+}
+header{
+  position: fixed;
+}
+nav{
+  background-color: white;
+}
+nav > a{
+  font-weight: 700;
+}
+
+/*Estilos de la portada de inicio*/
+
+#inicio{
+  clear: both;
+  background-image: url(../assets/img/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#inicio > div > div > input{
+  background-color: #2ECC71;
+  border: none;
+  padding: 10px;
+  color: white;
+  margin: 20%;
+  margin-bottom: 115px;
+}
+#inicio > div:first-child{
+  padding: 50px;
+  font-size: 20px;
+}
+#inicio > div:nth-child(2) {
+  font-size: 40px;
+  margin: none;
+}
+#inicio > div > div > input:hover{
+  color: #E95853;
+}
+
+/*seccion SERVICE*/
+.service{
+  background-color: #E95853;
+  color:white;
+}
+.imagenesService{
+  height: 200px;
+  width: 200px;
+  margin-top: 25%;
+}
+.textitos{
+  margin-top: 5%;
+  padding: 20px;
+  list-style: none;
+  font-size:12px;
+}
+li{
+  padding: 15px;
 }
